@@ -1,0 +1,355 @@
+{
+  "wallet": "DHSBGF5CTte4ZMtcmsXRYnMiGg5gn5jMo8NKmBA3BTd8",
+  "token": [
+    {
+      "_case": "closeable: empty USDC",
+      "pubkey": "3r9stkGvUo8WiicugM7H3j35d7yHC5qfAwUkV6wLY8FE",
+      "account": {
+        "data": {
+          "parsed": {
+            "info": {
+              "isNative": false,
+              "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "owner": "DHSBGF5CTte4ZMtcmsXRYnMiGg5gn5jMo8NKmBA3BTd8",
+              "state": "initialized",
+              "tokenAmount": {
+                "amount": "0",
+                "decimals": 6,
+                "uiAmount": 0.0,
+                "uiAmountString": "0.0"
+              }
+            },
+            "type": "account"
+          },
+          "program": "spl-token",
+          "space": 165
+        },
+        "executable": false,
+        "lamports": 2039280,
+        "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "rentEpoch": 18446744073709551615,
+        "space": 165
+      }
+    },
+    {
+      "_case": "holding: BONK balance",
+      "pubkey": "6CqoELLUrrGTfPCAhADrVX6GQg4nV723NA5GuTVuLgbW",
+      "account": {
+        "data": {
+          "parsed": {
+            "info": {
+              "isNative": false,
+              "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+              "owner": "DHSBGF5CTte4ZMtcmsXRYnMiGg5gn5jMo8NKmBA3BTd8",
+              "state": "initialized",
+              "tokenAmount": {
+                "amount": "1500",
+                "decimals": 5,
+                "uiAmount": 0.015,
+                "uiAmountString": "0.015"
+              }
+            },
+            "type": "account"
+          },
+          "program": "spl-token",
+          "space": 165
+        },
+        "executable": false,
+        "lamports": 2039280,
+        "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "rentEpoch": 18446744073709551615,
+        "space": 165
+      }
+    },
+    {
+      "_case": "closeable: empty wrapped SOL",
+      "pubkey": "Gz7VkD4MacbEB6yC5XD3HcumEiYx2EtDYYrfikGsvJG",
+      "account": {
+        "data": {
+          "parsed": {
+            "info": {
+              "isNative": true,
+              "mint": "So11111111111111111111111111111111111111112",
+              "owner": "DHSBGF5CTte4ZMtcmsXRYnMiGg5gn5jMo8NKmBA3BTd8",
+              "state": "initialized",
+              "tokenAmount": {
+                "amount": "0",
+                "decimals": 9,
+                "uiAmount": 0.0,
+                "uiAmountString": "0.0"
+              },
+              "rentExemptReserve": {
+                "amount": "2039280",
+                "decimals": 9,
+                "uiAmount": 0.00203928,
+                "uiAmountString": "0.00203928"
+              }
+            },
+            "type": "account"
+          },
+          "program": "spl-token",
+          "space": 165
+        },
+        "executable": false,
+        "lamports": 2039280,
+        "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "rentEpoch": 18446744073709551615,
+        "space": 165
+      }
+    },
+    {
+      "_case": "blocked: frozen",
+      "pubkey": "5ZWj7a1f8tWkjBESHKgrLmXshuXxqeY9SYcfbshpAqPG",
+      "account": {
+        "data": {
+          "parsed": {
+            "info": {
+              "isNative": false,
+              "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "owner": "DHSBGF5CTte4ZMtcmsXRYnMiGg5gn5jMo8NKmBA3BTd8",
+              "state": "frozen",
+              "tokenAmount": {
+                "amount": "0",
+                "decimals": 6,
+                "uiAmount": 0.0,
+                "uiAmountString": "0.0"
+              }
+            },
+            "type": "account"
+          },
+          "program": "spl-token",
+          "space": 165
+        },
+        "executable": false,
+        "lamports": 2039280,
+        "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "rentEpoch": 18446744073709551615,
+        "space": 165
+      }
+    },
+    {
+      "_case": "blocked: someone else is close authority",
+      "pubkey": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "account": {
+        "data": {
+          "parsed": {
+            "info": {
+              "isNative": false,
+              "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "owner": "DHSBGF5CTte4ZMtcmsXRYnMiGg5gn5jMo8NKmBA3BTd8",
+              "state": "initialized",
+              "tokenAmount": {
+                "amount": "0",
+                "decimals": 6,
+                "uiAmount": 0.0,
+                "uiAmountString": "0.0"
+              },
+              "closeAuthority": "9egh2nTKQwXbDkRuTre2uSirjEaBsGu5bTSkgGPNH8k1"
+            },
+            "type": "account"
+          },
+          "program": "spl-token",
+          "space": 165
+        },
+        "executable": false,
+        "lamports": 2039280,
+        "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "rentEpoch": 18446744073709551615,
+        "space": 165
+      }
+    },
+    {
+      "_case": "closeable: close authority is the wallet",
+      "pubkey": "SysvarRent111111111111111111111111111111111",
+      "account": {
+        "data": {
+          "parsed": {
+            "info": {
+              "isNative": false,
+              "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+              "owner": "DHSBGF5CTte4ZMtcmsXRYnMiGg5gn5jMo8NKmBA3BTd8",
+              "state": "initialized",
+              "tokenAmount": {
+                "amount": "0",
+                "decimals": 5,
+                "uiAmount": 0.0,
+                "uiAmountString": "0.0"
+              },
+              "closeAuthority": "DHSBGF5CTte4ZMtcmsXRYnMiGg5gn5jMo8NKmBA3BTd8"
+            },
+            "type": "account"
+          },
+          "program": "spl-token",
+          "space": 165
+        },
+        "executable": false,
+        "lamports": 2100000,
+        "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "rentEpoch": 18446744073709551615,
+        "space": 165
+      }
+    },
+    {
+      "_case": "skipped: not jsonParsed",
+      "pubkey": "SysvarC1ock11111111111111111111111111111111",
+      "account": {
+        "data": [
+          "AAAA",
+          "base64"
+        ],
+        "executable": false,
+        "lamports": 2039280,
+        "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "rentEpoch": 0,
+        "space": 165
+      }
+    },
+    {
+      "_case": "ignored: owned by another wallet",
+      "pubkey": "Vote111111111111111111111111111111111111111",
+      "account": {
+        "data": {
+          "parsed": {
+            "info": {
+              "isNative": false,
+              "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "owner": "9egh2nTKQwXbDkRuTre2uSirjEaBsGu5bTSkgGPNH8k1",
+              "state": "initialized",
+              "tokenAmount": {
+                "amount": "0",
+                "decimals": 6,
+                "uiAmount": 0.0,
+                "uiAmountString": "0.0"
+              }
+            },
+            "type": "account"
+          },
+          "program": "spl-token",
+          "space": 165
+        },
+        "executable": false,
+        "lamports": 2039280,
+        "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "rentEpoch": 18446744073709551615,
+        "space": 165
+      }
+    }
+  ],
+  "token2022": [
+    {
+      "_case": "closeable: Token-2022, no withheld fees",
+      "pubkey": "Stake11111111111111111111111111111111111111",
+      "account": {
+        "data": {
+          "parsed": {
+            "info": {
+              "isNative": false,
+              "mint": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+              "owner": "DHSBGF5CTte4ZMtcmsXRYnMiGg5gn5jMo8NKmBA3BTd8",
+              "state": "initialized",
+              "tokenAmount": {
+                "amount": "0",
+                "decimals": 6,
+                "uiAmount": 0.0,
+                "uiAmountString": "0.0"
+              },
+              "extensions": [
+                {
+                  "extension": "immutableOwner"
+                },
+                {
+                  "extension": "transferFeeAmount",
+                  "state": {
+                    "withheldAmount": 0
+                  }
+                }
+              ]
+            },
+            "type": "account"
+          },
+          "program": "spl-token-2022",
+          "space": 170
+        },
+        "executable": false,
+        "lamports": 2074080,
+        "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "rentEpoch": 18446744073709551615,
+        "space": 165
+      }
+    },
+    {
+      "_case": "blocked: withheld transfer fees",
+      "pubkey": "Config1111111111111111111111111111111111111",
+      "account": {
+        "data": {
+          "parsed": {
+            "info": {
+              "isNative": false,
+              "mint": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+              "owner": "DHSBGF5CTte4ZMtcmsXRYnMiGg5gn5jMo8NKmBA3BTd8",
+              "state": "initialized",
+              "tokenAmount": {
+                "amount": "0",
+                "decimals": 6,
+                "uiAmount": 0.0,
+                "uiAmountString": "0.0"
+              },
+              "extensions": [
+                {
+                  "extension": "transferFeeAmount",
+                  "state": {
+                    "withheldAmount": 15
+                  }
+                }
+              ]
+            },
+            "type": "account"
+          },
+          "program": "spl-token-2022",
+          "space": 170
+        },
+        "executable": false,
+        "lamports": 2074080,
+        "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "rentEpoch": 18446744073709551615,
+        "space": 165
+      }
+    },
+    {
+      "_case": "blocked: confidential transfers",
+      "pubkey": "AddressLookupTab1e1111111111111111111111111",
+      "account": {
+        "data": {
+          "parsed": {
+            "info": {
+              "isNative": false,
+              "mint": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+              "owner": "DHSBGF5CTte4ZMtcmsXRYnMiGg5gn5jMo8NKmBA3BTd8",
+              "state": "initialized",
+              "tokenAmount": {
+                "amount": "0",
+                "decimals": 6,
+                "uiAmount": 0.0,
+                "uiAmountString": "0.0"
+              },
+              "extensions": [
+                {
+                  "extension": "confidentialTransferAccount",
+                  "state": {}
+                }
+              ]
+            },
+            "type": "account"
+          },
+          "program": "spl-token-2022",
+          "space": 170
+        },
+        "executable": false,
+        "lamports": 2074080,
+        "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "rentEpoch": 18446744073709551615,
+        "space": 165
+      }
+    }
+  ]
+}

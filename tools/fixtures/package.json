@@ -1,0 +1,11 @@
+{
+  "name": "dustpan-fixtures",
+  "private": true,
+  "type": "module",
+  "description": "Generates reference transaction bytes with @solana/web3.js for Dustpan's unit tests.",
+  "scripts": { "generate": "node generate.mjs > ../../app/src/test/resources/web3js-fixtures.json" },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4"
+  }
+}
